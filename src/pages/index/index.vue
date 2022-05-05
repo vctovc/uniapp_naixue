@@ -7,9 +7,19 @@
   </view>
 </template>
 
-<script setup lang="ts">
-import { ref } from 'vue'
-const title = ref('Hello')
+<script lang="ts">
+import { defineComponent, ref } from 'vue';
+
+export default defineComponent({
+  name: 'IndexView',
+  setup() {
+    const title = ref<string>('Hello');
+
+    return {
+      title
+    };
+  }
+});
 </script>
 
 <style>
