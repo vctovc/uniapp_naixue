@@ -29,9 +29,12 @@
     "build:mp-weixin": "uni build -p mp-weixin",
     "build:quickapp-webview": "uni build -p quickapp-webview",
     "build:quickapp-webview-huawei": "uni build -p quickapp-webview-huawei",
-    "build:quickapp-webview-union": "uni build -p quickapp-webview-union"
+    "build:quickapp-webview-union": "uni build -p quickapp-webview-union",
+    "prepare": "husky install"
   },
   "dependencies": {
+    "@commitlint/cli": "^16.2.4",
+    "@commitlint/config-conventional": "^16.2.4",
     "@dcloudio/uni-app": "3.0.0-alpha-3040820220424001",
     "@dcloudio/uni-app-plus": "3.0.0-alpha-3040820220424001",
     "@dcloudio/uni-components": "3.0.0-alpha-3040820220424001",
@@ -52,6 +55,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-vue": "^8.7.1",
+    "husky": "^7.0.4",
     "prettier": "^2.6.2",
     "vite-plugin-eslint": "^1.6.0",
     "vue": "^3.2.33",
