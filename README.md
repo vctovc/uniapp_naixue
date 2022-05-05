@@ -45,4 +45,5 @@ yarn build:mp-alipay
 
 ## 写在最后
 
+* [The MIT License (MIT)](https://github.com/xlz122/uni-app-nx/blob/master/LICENSE)
 * 本项目仅用于学习使用，切勿用于商业用途，否则产生的法律后果与作者无关。
