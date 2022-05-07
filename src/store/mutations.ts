@@ -5,8 +5,8 @@ type Mutations<T, U = any> = {
 };
 
 const mutations: Mutations<State> = {
-  setMsg(state, msg: string) {
-    state.msg = msg;
+  setUserInfo(state, userInfo: unknown) {
+    state.userInfo = userInfo;
   }
 };
 

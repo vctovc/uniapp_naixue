@@ -5,7 +5,8 @@ export type Getters<T> = {
 };
 
 const getters: Getters<State> = {
-  msg: state => state.msg
+  isLogin: state => state.isLogin,
+  userInfo: state => state.userInfo
 };
 
 export default getters;

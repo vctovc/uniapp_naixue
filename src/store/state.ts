@@ -1,9 +1,11 @@
 export type State = {
-  msg: string;
+  isLogin: boolean;
+  userInfo: unknown;
 };
 
 const state: State = {
-  msg: 'hello world'
+  isLogin: false,
+  userInfo: {}
 };
 
 export default state;

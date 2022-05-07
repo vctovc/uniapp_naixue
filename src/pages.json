@@ -71,6 +71,14 @@
 			}
 		},
 		{
+			"path": "pages/mine/member-code/MemberCode",
+			"style": {
+				"navigationBarTitleText": "会员码",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
 			"path": "pages/login/login",
 			"style": {
 				"navigationBarTitleText": "登录",
